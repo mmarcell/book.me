@@ -1,0 +1,133 @@
+.box {
+    position: relative;
+    width:100px;
+    margin: -.5px;
+    height:10px;
+    display:inline-table;
+    float:left;
+    vertical-align:top;
+    border:solid black 1px;
+    text-align:left;
+    padding-bottom: 70px;
+}
+.fullwidth {
+    width:700px;
+    float:none;
+    margin:0 auto;
+    position:relative;
+}
+.month {
+    width:700px;
+    float:none;
+    margin:0 auto;
+    position:relative;
+    text-align:center;
+    font-size:40px;
+    padding-bottom:10px;
+}
+.days {
+    position: relative;
+    width:100px;
+    height:10px;
+    display:inline-table;
+    float:left;
+    vertical-align:top;
+    border:solid black 1px;
+    text-align:center;
+    margin: -.5px;
+}
+.form {
+    display:block;
+    position:relative;
+    margin: 0 auto;
+}
+
+.form input {
+    width:160px;
+    display:inline-block;
+    margin:0;
+}
+
+.form tr {
+    padding:0;
+    margin:0;
+}
+
+.table {
+    width:auto;
+    margin:0 auto;
+}
+
+.label {
+    text-align:center;
+    position:relative;
+    margin:0 auto;
+    width:auto;
+}
+
+#jresult {
+    text-align:right;
+    position: relative;
+    padding-right:10px;
+    max-width:auto;
+    min-width:auto;
+    float:right;
+    font-size:12pt;
+    clear:both;
+    height:0px;
+    overflow:visible;
+    margin-top: -30px;
+}
+
+#week {
+    position:relative;
+    clear:both;
+    
+}
+
+#listtable {
+    border: solid #cccccc 1px;
+    max-width:1035px;
+    margin:0 auto;
+    height:150px;
+    overflow-y:scroll;
+    background-color:#eeeeee;
+}
+
+#listtable div {
+    width:99.5%;
+}
+.unbookedrow, .bookedrow, .deletablerow {
+    cursor:pointer;
+    text-align:center;
+    border-bottom:ridge #cccccc 2px;
+    border-top:ridge #cccccc 2px;
+    border-right:ridge #cccccc 2px;
+    border-left:ridge #cccccc 2px;
+    margin-top:-1px;
+}
+
+.unbookedrow:hover, .bookedrow:hover, .deletablerow:hover {
+    background-color: gray !important;
+}
+
+.rowelmnt {
+    border-left:ridge #cccccc 2px;
+    border-right:ridge #cccccc 2px;
+    margin-right:-2px;
+    margin-top:-2px;
+    margin-bottom:-2px;
+    padding-right:5%;
+    padding-left:5%;
+    border-bottom:ridge #cccccc 2px;
+    border-top:ridge #cccccc 2px;
+    display: inline-block;
+    position:relative;
+}
+
+.rowelmnt p {
+    margin-bottom:0px;
+    margin-top:0px;
+    min-width:90px;
+    text-align:center;
+}
